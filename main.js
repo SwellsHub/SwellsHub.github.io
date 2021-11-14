@@ -1,5 +1,5 @@
 import './style.css';
-import * as THREE from 'three';
+import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { ConeBufferGeometry, Vector3 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
