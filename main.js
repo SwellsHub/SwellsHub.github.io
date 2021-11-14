@@ -18,6 +18,7 @@ if (window.innerWidth < 1300) {
   switchedToMobile = true;
 }
 let oldWidth = 0;
+console.log("help");
 
 let thisSliderImages = null,
     thisArrowLeft = null,
@@ -314,6 +315,7 @@ var titleElem = document.getElementById("sitetitle");
 var titlePos = titleElem.getBoundingClientRect();
 var offset = new THREE.Vector3(1 * (1/(.5*window.innerWidth)), 19, -15);
 var mobileOffset = new THREE.Vector3(-5, .3, -15);
+console.log("mobile offset: ");
 
 function repositionObjects() {
   //titleElem = document.getElementById("sitetitle");
