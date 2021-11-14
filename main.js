@@ -210,8 +210,6 @@ torus.position.set(10000,99900000,1);
 
 //scene.add(torus);
 //scene.add(torus2);
-//crystal.position.set(torus.position);
-// scene.add(crystal);
 
 // Lights
 
