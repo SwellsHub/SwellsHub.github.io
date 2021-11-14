@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.63a26457.svg" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
+    <title>Spencer's Portfolio</title>
+  <script type="module" crossorigin src="/assets/index.4b8448c6.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.d9d6ecc5.js">
+  <link rel="stylesheet" href="/assets/index.8dfc81f8.css">
+</head>
+  <body>
+
+    
+
+    <canvas id="bg"></canvas>   
+
+    <main id="body">
+
+      <nav class="navbar nb">
+        <ul class="nav-links nb nbul" id="navi-list">
+        <li class="nb nbli"><a href="#unityHeader" class="nb nba active">Game Dev</a></li>
+        <li class="nb nbli"><a href="#webdevHeader" class="nb nba">Web Dev</a></li>
+        <li class="nb nbli"><a href="#miscHeader" class="nb nba">Misc</a></li>
+        </ul>
+        <div class="menu" id="toggleButton">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+
+      <header  id="sitetitle">
+        <h1><img src="/assets/SpencerWells2.8bf889c1.png" id="spencerPic"></h1>
+        <p></p>
+        
+      </header>
+
+      
+      
+
+      <br><br>
+      <section class="shortsection linksection"><div class="centered">
+        <a href="https://github.com/SwellsHub"><i class="fas fa-scroll"></i>Resume&nbsp&nbsp</a> 
+           
+         <a href="https://github.com/SwellsHub"><i class="fab fa-linkedin"></i> LinkedIn&nbsp&nbsp</a> 
+            
+        
+         <a href="https://github.com/SwellsHub"><i class="fab fa-github-square"></i>Github&nbsp&nbsp</a> 
+            
+         <a href="https://swells.itch.io"><i class="fab fa-itch-io"></i>Itch.io</a>
+
+         <section class = "shortsection" id="contactSection">Contact - spencerwells@gmail.com</section>
+        </div>
+         </section>
+
+         
+
+      <blockquote id="introduction">
+        <p>I'm a software engineer and game dev passionate about making inspiring interactive experiences. Here's some of what I've made:</p>
+      </blockquote>
+
+      <!-- <section class="light mediumsection"><i class="fab fa-unity"></i> Unity Dev</section>  -->
+      <section class="light mediumsection dropdownsection unityColor" id="unityHeader" data-id="unitydev"><i class="fab fa-unity unityHeader"></i> Unity Dev <container class="unitydev collapsibleIcon">-</container></section>
+
+      <!-- Feline Formations -->
+      <section class="light projectSection projectSectionL projectDescr unitydev unityColor" id="ffDesc"> 
+
+      <div>
+        <h2>GMTK Jam 2021</h2>
+
+        <p>
+          Over the summer, my friends and I participated in the GMTK game jam and made a 3D strategy RPG in Unity called Feline Formations!
+          I focused mainly on programming and design, implementing the following systems:
+          <ul>
+            <li>Grid-based movement and attacking, with highlighting to show range of actions and selected targets</li>
+            <li>Enemy pathfinding and attack AI</li>
+            <li>Editor tool for easily adding new unit types and formations to the game</li>
+            <li>UI that upates to show selected player units and formations</li>
+          </ul>
+          Check out the game on Itch.io! - <a href = "https://centipeda.itch.io/feline-formations" target="_blank">https://centipeda.itch.io/feline-formations</a>
+        </p>
+
+      </div>
+
+
+      </section>
+
+      <div class="slidePic slidePicR unitydev" id="felinePic" data-num="0">
+        
+        <div class="arrow arrow-left" id="ffAL" data-num="0"></div>
+        <div class="arrow arrow-right" id="ffAR" data-num="0"></div>
+        <div class="slide unitySlide slideR" id="ffSlide1" data-num="0"></div>
+        <div class="slide unitySlide slideR" id="ffSlide2" data-num="0"></div>
+        <div class="slide unitySlide slideR" id="ffSlide3" data-num="0"></div>
+        
+      </div>
+
+      <!-- A Friend's Quest -->
+
+      <div class="slidePic slidePicL unitydev" id="fqPic" data-num="3">
+          
+        <div class="slide unitySlide slideL" id="fqSlide1" data-num="3"></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr unitydev unityColor" id="fqDesc"> 
+
+        <div>
+          <h2>A Friend's Quest</h2>
+  
+          <p>
+            I recently started a personal RPG project tentatively titled A Friend's Quest inspired by the classic Paper Mario games! Although this project is just in
+            its beginning stages, I hope to be able to share more updates and designs soon!
+            <ul>
+              <li>Original character designs drawn in Clip Studio Paint and edited in Photoshop</li>
+              <li>Sprite rigging and animation done using Unity's 2D animation package</li>
+              <li>Generic scriptable object based event system for easily adding interactables (like doors) without additional code</li>
+              <li>Seamless area-based camera transitions using Cinemachine</li>
+            </ul>
+          </p>
+  
+        </div>
+  
+  
+      </section>
+
+      <!-- Mountaintops -->
+      <section class="light projectSection projectSectionL projectDescr unitydev unityColor" id = "mDesc"> 
+
+        <div>
+          <h2>Secluded Mountaintop Scene</h2>
+  
+          <p>
+            I did some terrain generation experiments in Unity, and was able to make a secluded mountaintop scene that I decorated and composited with assets
+            from the Unity asset store.
+            <ul>
+              <li>Landscape generation with Gaia Pro</li>
+              <li>Triplanar mapping for grass, dirt, and cliff textures</li>
+              <li>Height fog and Massive Clouds package used to conceal background</li>
+              <li>Bloom and color gradient used to bring out vibrance in the trees and unify the color palette</li>
+            </ul>
+            Development of this project is currently on hold, but I hope to come back to it in the future!
+          </p>
+  
+        </div>
+  
+  
+        </section>
+
+        <div class="slidePic slidePicR unitydev" id="mPic" data-num="2">
+        
+          <div class="arrow arrow-left" id="mAL" data-num="2"></div>
+          <div class="arrow arrow-right" id="mAR" data-num="2"></div>
+          <div class="slide unitySlide slideR" id="mSlide1" data-num="2"></div>
+          <div class="slide unitySlide slideR" id="mSlide2" data-num="2"></div>
+          <div class="slide unitySlide slideR" id="mSlide3" data-num="2"></div>
+          <div class="slide unitySlide slideR" id="mSlide4" data-num="2"></div>
+          <div class="slide unitySlide slideR" id="mSlide5" data-num="2"></div>
+          
+        </div>
+
+      <!-- Get Rings, Destroy Cubes -->
+
+      <div class="slidePic slidePicL unitydev" id="grPic" data-num="1">
+          
+        <div class="arrow arrow-left" id="grAL" data-num="1"></div>
+        <div class="arrow arrow-right" id="grAR" data-num="1"></div>
+        <div class="slide unitySlide slideL" id="grSlide1" data-num="1"></div>
+        <div class="slide unitySlide slideL" id="grSlide2" data-num="1"></div>
+        <div class="slide unitySlide slideL" id="grSlide3" data-num="1"></div>
+        <div class="slide unitySlide slideL" id="grSlide4" data-num="1"></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr unitydev unityColor" id="grDesc"> 
+
+        <div>
+          <h2>Get Rings, Destroy Cubes</h2>
+  
+          <p>
+            This is a simple space-shooter game I made about flying through rings to upgrade your ship and shooting the cubes trying
+            to take you down.
+            <ul>
+              <li>Phase-based, endless gameplay</li>
+              <li>5 unique enemy types</li>
+              <li>Rings that upgrade flight speed, turn-radius, </li>
+              <li>Boss battle every 3 phases with the sleeping cube at the center of the map</li>
+            </ul>
+            You can play it now on Itch.io! - <a href = "https://swells.itch.io/get-rings-destroy-cubes" target="_blank">https://swells.itch.io/get-rings-destroy-cubes</a>
+          </p>
+  
+        </div>
+  
+  
+      </section>
+
+      <section class="light mediumsection dropdownsection godotColor" id="godotHeader" data-id="godotdev"><img src="/assets/Godot_icon.8937e991.png" id="GodotIcon"> Godot <container class="godotdev collapsibleIcon">-</container></section>
+
+      <!-- Feline Formations -->
+      <section class="light projectSection projectSectionL projectDescr godotdev godotColor" id="pbDesc"> 
+
+      <div>
+        <h2>Lowrez Jam 2021</h2>
+
+        <p>
+          At the Lowrez jam, me and two friends made a game that's 64x64 resolution! You can play it on itch.io here:
+          <a href = "https://swells.itch.io/pixel" target="_blank">https://swells.itch.io/pixel</a>
+          <ul>
+            
+          </ul>
+        </p>
+
+      </div>
+
+
+      </section>
+
+      <div class="slidePic slidePicR squareSlide godotdev" id="pbPic" data-num="4">
+        
+        <div class="arrow arrow-left" id="pbAL" data-num="4"></div>
+        <div class="arrow arrow-right" id="pbAR" data-num="4"></div>
+        <div class="slide godotSlide slideR squareSlide" id="pbSlide1" data-num="4"></div>
+        <div class="slide godotSlide slideR squareSlide" id="pbSlide2" data-num="4"></div>
+        <div class="slide godotSlide slideR squareSlide" id="pbSlide3" data-num="4"></div>
+        
+      </div>
+      
+      <section class="light mediumsection dropdownsection" id="webdevHeader" data-id="webdev"> Web Dev <container class="webdev collapsibleIcon">-</container></section>
+
+      <!-- New Perspectives -->
+      <section class="light projectSection projectSectionL projectDescr webdev" id="npDesc"> 
+
+      <div>
+        <h2>New Perspectives</h2>
+
+        <p>
+          For Irish Hacks 2019, my team made a Chrome extension that checks the news article you are reading and suggests
+          other articles about the same topic on the opposite end of the political spectrum. It was made to help fight
+          polticial polarization and make it easier for people to broaden what perspectives they are exposed to. <br><br>
+          
+          Technology Used:
+          <ul>
+            <li>HTML/CSS/Javascript</li>
+            <li>Python</li>
+            <li>IBM Watson Discovery: NLP platform for analyzing articles and finding suggestions</li>
+          </ul>
+          Codebase on github - <a href = "https://github.com/open-source-grilled-cheese/new-perspective" target="_blank">https://github.com/open-source-grilled-cheese/new-perspective</a>
+        </p>
+
+      </div>
+
+
+      </section>
+
+      <div class="slidePic slidePicR webdev" id="npPic" data-num="5">
+        
+        <div class="slide webdevSlide slideR" id="npSlide1" data-num="5"></div>
+        
+      </div>
+
+      <!-- Brick-a-Pic -->
+
+      <div class="slidePic slidePicL webdev" id="bpPic" data-num="6">
+          
+        <div class="slide webdevSlide slideL" id="bpSlide1" data-num="6"></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr webdev" id="Desc"> 
+
+        <div>
+          <h2>Brick-a-Pic</h2>
+  
+          <p>
+            For an Open Souce Development class, my group made a web app that takes pictures as input and
+            produces buildable Lego creations! <br><br>
+
+            Technology Used:
+            <ul>
+              <li>HTML/CSS/Javascript</li>
+              <li>Vue.js</li>
+              <li>HTML Canvas</li>
+            </ul>
+            Codebase on github - <a href = "https://github.com/brick-a-pic/brick-a-pic" target="_blank">https://github.com/brick-a-pic/brick-a-pic</a>
+          </p>
+  
+        </div>
+  
+  
+      </section>
+
+      <!-- PostSeq -->
+      <section class="light projectSection projectSectionL projectDescr webdev" id = "psDesc"> 
+
+        <div>
+          <h2>PostSeq</h2>
+  
+          <p>
+            While working at the IU medical school, I helped develop a webapp to facilitate the RNA sequencing pipeline of the Biochemistry Department!
+            Professors can access results in the database from past experiments and perform a number of statistical tests for gene expression and pathway analysis
+            <br><br>
+
+            Technologies Used:
+            <ul>
+              <li>R</li>
+              <li>R Shiny</li>
+              <li>Limma RNA Sequencing Analysis Package</li>
+              <li>GGPlot 2</li>
+              <li>MySQL</li>
+            </ul>
+            Codebase on github - <a href = "https://github.com/SwellsHub/PostSeq" target="_blank">https://github.com/SwellsHub/PostSeq</a>
+          </p>
+  
+        </div>
+  
+  
+        </section>
+
+        <div class="slidePic slidePicR webdev" id="psPic" data-num="7">
+        
+          <div class="arrow arrow-left" id="psAL" data-num="7"></div>
+          <div class="arrow arrow-right" id="psAR" data-num="7"></div>
+          <div class="slide webdevSlide slideR" id="psSlide1" data-num="7"></div>
+          <div class="slide webdevSlide slideR" id="psSlide2" data-num="7"></div>
+          
+        </div>
+
+        <!-- <section class="light mediumsection"><i class="fab fa-unity"></i> Misc</section>  -->
+      <section class="light mediumsection dropdownsection miscColor" id="miscHeader" data-id="miscdev"> Miscellaneous <container class="miscdev collapsibleIcon">-</container></section>
+
+      <!-- Arduino Tetris -->
+      <section class="light projectSection projectSectionL projectDescr miscdev unityColor" id="atDesc"> 
+
+      <div>
+        <h2>Arduino Tetris</h2>
+
+        <p>
+          Tetris on an Arduino! This was a group project for an embedded systems course, we display the game on an led matrix and even play the tetris theme
+          on the speaker!
+          <br><br>
+    
+          Technologies Used
+          <ul>
+            <li>Arduino</li>
+            <li>C</li>
+          </ul>
+          Codebase on Github - <a href = "https://github.com/centipeda/mini-tetris" target="_blank">https://github.com/centipeda/mini-tetris</a>
+        </p>
+
+      </div>
+
+
+      </section>
+
+      <div class="slidePic slidePicR miscdev" id="atPic" data-num="8">
+        
+        <div class="slide miscSlide slideR" id="atSlide1" data-num="8"></div>
+        
+      </div>
+
+      <!-- Blokus Simulation -->
+
+      <div class="slidePic slidePicL miscdev squareSlide" id="blPic" data-num="9">
+          
+        <div class="slide miscSlide slideL squareSlide" id="blSlide1" data-num="9"></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr miscdev unityColor" id="blDesc"> 
+
+        <div>
+          <h2>Blokus Simulator</h2>
+  
+          <p>
+            For the final project in freshman engineering, I made a simulation of the game Blokus and programmed different AI playing styles so that I could determine what
+             the best strategy is using thousands of game results as data
+
+            <ul>
+              <li>Original character designs drawn in Clip Studio Paint and edited in Photoshop</li>
+              <li>Sprite rigging and animation done using Unity's 2D animation package</li>
+              <li>Generic scriptable object based event system for easily adding interactables (like doors) without additional code</li>
+              <li>Seamless area-based camera transitions using Cinemachine</li>
+            </ul>
+              Codebase on Github - <a href = "https://github.com/SwellsHub/BlokusSim" target="_blank">https://github.com/SwellsHub/BlokusSim</a>
+          </p>
+
+        </div>
+  
+  
+      </section>
+
+    </main>
+
+    
+    
+    
+    <script src="lodash.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+  </body>
+</html>
