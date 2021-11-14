@@ -1,8 +1,7 @@
 import './style.css';
 import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { ConeBufferGeometry, Vector3 } from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { Vector3 } from 'https://unpkg.com/three@0.120.1/build/three.module.js';
+import { GLTFLoader } from '/GLTFLoader.js';
 import _ from 'lodash';
 
 
