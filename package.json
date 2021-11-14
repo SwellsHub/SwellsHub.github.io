@@ -7,9 +7,13 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.172",
+    "lodash": "^4.17.21",
     "vite": "^2.3.0"
   },
   "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash-es": "^4.17.21",
     "three": "^0.128.0"
   }
 }
