@@ -165,7 +165,6 @@ loader.load( 'Crystal.glb', function (gltf) {
 
   const crystalLoad = gltf.scene;
   crystal = crystalLoad;
-  //scene.add(crystal);
 
 }, undefined, function (error) {
   console.error(error);
