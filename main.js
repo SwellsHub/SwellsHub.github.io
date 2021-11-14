@@ -8,8 +8,6 @@ let sliderImages = document.querySelectorAll(".slide");
 let leftArrows = document.querySelectorAll(".arrow-left");
 let rightArrows = document.querySelectorAll(".arrow-right");
 let dropdownHeaders = document.querySelectorAll(".dropdownsection");
-//arrowLeft = document.querySelector("#ffAL"),
-//arrowRight = document.querySelector("#ffAR");
 
 let currents = [];
 let oldWindowWidth = window.innerWidth;
