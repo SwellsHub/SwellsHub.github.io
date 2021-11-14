@@ -189,7 +189,6 @@ camera.position.setX(20);
 camera2.position.setZ(44);
 camera2.position.setY(-10);
 camera2.position.setX(20);
-//canvas.style.display = "block";
 
 renderer.render(scene, camera);
 
