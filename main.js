@@ -15,6 +15,7 @@ let haveRemoved = false;
 let switchedToMobile = false;
 
 let oldWidth = 0;
+let clickedMenu = false;
 console.log("help");
 
 if (window.location.href.includes("mobile.html")) {
@@ -155,14 +156,25 @@ function myFunction() {
 const toggleButton = document.getElementById("toggleButton");
 const navList = document.getElementById("navi-list");
 
-toggleButton.addEventListener("click", () => {
-  navList.classList.toggle('active');
+toggleButton.addEventListener("mousedown", () => {
+  if(navList.classList.contains('active')) {
+    clickedMenu = false;
+  }
+  else {
+    clickedMenu = true;
+  }
 })
 
 document.body.addEventListener('mouseup', function() {
   if(navList.classList.contains('active')) {
+    if (!clickedMenu) {
+      navList.classList.toggle('active');
+    }
+  }
+  else if( clickedMenu ) {
     navList.classList.toggle('active');
   }
+  clickedMenu = false;
 });
 
 
