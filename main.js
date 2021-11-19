@@ -135,7 +135,6 @@ dropdownHeaders.forEach(function(element) {
   })
 });
   
-  
 startSlide();
 
 // Place the arrows
@@ -155,6 +154,12 @@ const navList = document.getElementById("navi-list");
 toggleButton.addEventListener("click", () => {
   navList.classList.toggle('active');
 })
+
+document.body.addEventListener('mouseup', function() {
+  if(navList.classList.contains('active')) {
+    navList.classList.toggle('active');
+  }
+});
 
 
 // Setup
@@ -266,13 +271,15 @@ function onWindowLoad() {
     resizeHandler();
 }
 
+window.onload = function() {
+  checkForMobilePage();
+}
 
 $(window).resize(function(){
   resizeHandler();
 });
 
-function resizeHandler() {
-
+function checkForMobilePage() {
   if (window.innerWidth < 1300 && !switchedToMobile) {
     switchedToMobile = true;
     window.location.href = "index2.html";
@@ -281,6 +288,11 @@ function resizeHandler() {
     switchedToMobile = false;
     window.location.href = "index.html";
   }
+}
+
+function resizeHandler() {
+
+  checkForMobilePage();
 
   //camera.fov = 2 * Math.atan(window.innerHeight/ (2 * camera.position.z)) * (180/Math.PI);
   camera.aspect = window.innerWidth / window.screen.availHeight;

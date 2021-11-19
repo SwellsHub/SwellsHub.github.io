@@ -442,6 +442,7 @@ video {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    
   }
 
   .projectSectionL {
@@ -865,6 +866,7 @@ main {
   margin: 0px auto;
   padding: 0px 0px;
   
+  
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -1064,3 +1066,21 @@ canvas {
   width: 100%;
   margin-left: -12px;
 }
+
+/*
+section {
+  box-shadow: 5px 10px #000000;
+}
+
+header {
+  box-shadow: 5px 10px #000000;
+}
+
+nav {
+  box-shadow: 5px 10px #000000;
+}
+
+.slide {
+  box-shadow: 5px 10px #000000;
+}
+*/
