@@ -271,9 +271,7 @@ function onWindowLoad() {
     resizeHandler();
 }
 
-window.onload = function() {
-  checkForMobilePage();
-}
+window.onload = checkForMobilePage;
 
 $(window).resize(function(){
   resizeHandler();
