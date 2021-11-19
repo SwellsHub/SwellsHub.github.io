@@ -1041,9 +1041,32 @@ canvas {
   margin-bottom: 4px;
 }
 
+@media (max-width: 1500px) {
+  .navbar {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 1500px) {
+  
+  .navbar {
+    width: 45%;
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 900px) {
+  
+  .navbar {
+    width: 50%;
+    font-size: 2.5vw;
+  }
+}
+
 @media all and (max-width: 720px) {
   .navbar {
     flex-direction: column;
+    width: 35%;
     max-height: 500px;
     font-size: 3vw;
   }
