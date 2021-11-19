@@ -29,7 +29,7 @@ let thisSliderImages = null,
     thisArrowLeft = null,
     thisArrowRight = null;
 
-
+/*comment*/
 function toggleVisibility(className) {
   let elements = document.querySelectorAll("." + className);
 
