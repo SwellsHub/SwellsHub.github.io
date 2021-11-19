@@ -54,6 +54,10 @@ a:hover {
   max-height: 250px;
 }
 
+video {
+  object-fit: fill;
+}
+
 
 #snuf {
   aspect-ratio: 4/3;
@@ -180,33 +184,30 @@ a:hover {
 .slide:focus {
   outline: none !important;
 }
-  
+/*
 #ffSlide1 {
   content: url(
     "images/ff/Level8Move.gif");
 }
+*/
+/*
 #ffSlide2 {
   content: url(
 "images/ff/Level4.png");
 }
+*/
+/*
 #ffSlide3 {
   content: url(
 "images/ff/Level9.png");
 }
-
-
+*/
+/*
 #fqSlide1 {
   content: url(
     "images/fq/FriendsQuestDemo1.gif");
 }
-#fqSlide2 {
-  content: url(
-"images/ff/Level4.png");
-}
-#fqSlide3 {
-  content: url(
-"images/ff/Level9.png");
-}
+*/
 
 
 #grSlide1 {
@@ -218,22 +219,22 @@ a:hover {
   content: url(
     "images/gr/grMenu.png");
 }
-
+/*
 #grSlide3 {
   content: url(
     "images/gr/grMoving.gif");
 }
-
+*/
 #grSlide4 {
   content: url(
     "images/gr/grPlay1.png");
 }
-
+/*
 #mSlide1 {
   content: url(
     "images/m/MountaintopMoving.gif");
 }
-
+*/
 #mSlide2 {
   content: url(
     "images/m/Mountaintop2.png");
@@ -291,13 +292,13 @@ a:hover {
   max-height: 750px;
   padding-bottom: 200px;
 }
-
+/*
 #bpSlide1 {
   content: url(
     "images/bp/brickapic.gif"
   )
 }
-
+*/
 #psSlide1 {
   content: url(
     "images/ps/PostSeqHome1.png"
@@ -310,11 +311,6 @@ a:hover {
   )
 }
 
-#atSlide1 {
-  content: url(
-    "images/at/atVideo2.gif"
-  )
-}
 
 #blSlide1 {
   content: url(
