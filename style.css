@@ -927,6 +927,10 @@ canvas {
       padding: .75rem;
       display: inline-block;
     }
+
+    #npPic {
+      padding-bottom: 200px;
+    }
   }
 
   .mediumsection {
