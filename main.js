@@ -47,7 +47,7 @@ function toggleVisibility(className) {
         element.style.display = "none";
       }
       else {
-        if (element.className.includes("slidePic")) {
+        if (element.className.includes("slidePic") && window.innerWidth >= 801) {
           element.style.display = "flex";
         }
         else {
