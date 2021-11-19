@@ -457,10 +457,11 @@ video {
   .slide {
     margin-top: -20px;
     width: 100%;
+    float: left;
   }
 
   .arrow {
-    top: 27vw;
+    top: 50%;
   }
 
   .arrow-left {
@@ -645,6 +646,9 @@ video {
 /* Reverse order of text and picture when text is on the right */
 @media(max-width:1300px) {
   
+  .arrow {
+    top: 50%;
+  }
   /*
   .slidePicL {
     order: 2;
@@ -1071,6 +1075,10 @@ canvas {
   float: left;
   width: 100%;
   margin-left: -12px;
+}
+
+.arrow {
+  top: 50%;
 }
 
 /*
