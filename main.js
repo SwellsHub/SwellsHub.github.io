@@ -17,7 +17,7 @@ let switchedToMobile = false;
 let oldWidth = 0;
 console.log("help");
 
-if (window.location.href.includes("index2.html")) {
+if (window.location.href.includes("mobile.html")) {
   switchedToMobile = true
 }
 
@@ -287,7 +287,7 @@ function checkForMobilePage() {
   console.log("Checking for mobile");
   if (window.innerWidth < 1300 && !switchedToMobile) {
     switchedToMobile = true;
-    window.location.href = "index2.html";
+    window.location.href = "mobile.html";
   }
   else if (window.innerWidth >= 1300 && switchedToMobile) {
     switchedToMobile = false;
