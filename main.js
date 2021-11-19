@@ -14,9 +14,6 @@ let oldWindowHeight = window.innerHeight;
 let haveRemoved = false;
 let switchedToMobile = false;
 
-if (window.innerWidth < 1300) {
-  switchedToMobile = true;
-}
 let oldWidth = 0;
 console.log("help");
 
