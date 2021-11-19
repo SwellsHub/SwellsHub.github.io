@@ -290,7 +290,8 @@ video {
 #npPic {
   aspect-ratio: 2/2.5;
   max-height: 750px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
+  margin-left: 22px;
 }
 /*
 #bpSlide1 {
@@ -730,6 +731,7 @@ video {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    margin-left: -35px;
   }
 }
 
