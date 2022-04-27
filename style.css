@@ -40,6 +40,7 @@
 */
 
 
+
 a {
   color: rgb(251, 225, 225);
   text-decoration: none;
@@ -979,8 +980,21 @@ canvas {
   background: rgb(114, 114, 114);
 }
 
+.artColor {
+  background: rgb(42,33,181);
+}
+
 .unitySlide {
   border: 1vw solid rgb(114, 114, 114);
+}
+
+.artSlide {
+  object-fit: contain;
+
+}
+
+.artContainer {
+  padding-bottom: 20px;
 }
 
 .godotColor {

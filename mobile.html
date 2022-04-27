@@ -23,8 +23,8 @@
       <nav class="navbar nb">
         <ul class="nav-links nb nbul" id="navi-list">
         <li class="nb nbli"><a href="#unityHeader" class="nb nba active">Game Dev</a></li>
-        <li class="nb nbli"><a href="#webdevHeader" class="nb nba">Web Dev</a></li>
-        <li class="nb nbli"><a href="#miscHeader" class="nb nba">Misc</a></li>
+        <li class="nb nbli"><a href="#webdevHeader" class="nb nba">App Dev</a></li>
+        <li class="nb nbli"><a href="#artHeader" class="nb nba">Art</a></li>
         </ul>
         <div class="menu" id="toggleButton">
           <div class="menu-line"></div>
@@ -44,7 +44,7 @@
 
       <br><br>
       <section class="shortsection linksection"><div class="centered">
-        <a href="https://github.com/SwellsHub"><i class="fas fa-scroll"></i>Resume&nbsp&nbsp</a> 
+        <a href="resume.pdf"><i class="fas fa-scroll"></i>Resume&nbsp&nbsp</a> 
            
          <a href="https://www.linkedin.com/in/spencer-wells-977117a5/"><i class="fab fa-linkedin"></i> LinkedIn&nbsp&nbsp</a> 
             
@@ -99,7 +99,36 @@
 
       </section>
 
-      
+      <!-- ND Studios VR -->
+
+      <section class="light projectSection projectSectionL projectDescr unitydev unityColor" id="fqDesc"> 
+
+        <div>
+          <h2>ND Studios VR</h2>
+  
+          <p>
+            I collaborated with Notre Dame Academic Technologies to create a virtual reality escape room showcasing the new studio space at the University of Notre Dame.
+            <ul>
+              <li>Built using Unity and the XR toolkit</li>
+              <li>Physics-based puzzle progression</li>
+              <li>Lead programmer on project, coordinated with modelers, designers, and voice actors</li>
+              <li>Demoed at conference of 50 people</li>
+            </ul>
+          </p>
+  
+        </div>
+
+      </section>
+
+      <div class="slidePic slidePicR unitydev" id="vrPic" data-num="10">
+
+        <div class="arrow arrow-left" id="vrAL" data-num="10"></div>
+        <div class="arrow arrow-right" id="vrAR" data-num="10"></div>
+        <div class="slide unitySlide slideR" id="vrSlide1" data-num="10"><img src="images/vr/Start.png" width=100% height=100%></div>
+        <div class="slide unitySlide slideR" id="vrSlide2" data-num="10"><img src="images/vr/Studio1.png" width=100% height=100%></div>
+        <div class="slide unitySlide slideR" id="vrSlide3" data-num="10"><img src="images/vr/Switchboard.png" width=100% height=100%></div>
+
+      </div>
 
       <!-- A Friend's Qust -->
 
@@ -234,8 +263,95 @@
 
       </section>
 
+      <!-- <section class="light mediumsection"><i class="fab fa-unity"></i> Misc</section>  -->
+      <section class="light mediumsection dropdownsection miscColor" id="miscHeader" data-id="miscdev"> Miscellaneous <container class="miscdev collapsibleIcon">-</container></section>
+
+      <!-- Arduino Tetris -->
+
+      <div class="slidePic slidePicL miscdev" id="atPic" data-num="8">
+        
+        <div class="slide miscSlide slideL" id="atSlide1" data-num="8"><video autoplay loop muted playsinline width=100% height=100% style="margin-bottom: -5px;"><source src= "images/at/atVideo2.mp4"></video></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr miscdev unityColor" id="atDesc"> 
+
+      <div>
+        <h2>Arduino Tetris</h2>
+
+        <p>
+          Tetris on an Arduino! This was a group project for an embedded systems course, we display the game on an led matrix and even play the tetris theme
+          on the speaker!
+          <br><br>
+    
+          Technologies Used
+          <ul>
+            <li>Arduino</li>
+            <li>C</li>
+          </ul>
+          Codebase on Github - <a href = "https://github.com/centipeda/mini-tetris" target="_blank">https://github.com/centipeda/mini-tetris</a>
+        </p>
+
+      </div>
+
+
+      </section>
+
+      <!-- Blokus Simulation -->
+
+      <div class="slidePic slidePicL miscdev squareSlide" id="blPic" data-num="9">
+          
+        <div class="slide miscSlide slideL squareSlide" id="blSlide1" data-num="9"></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr miscdev unityColor" id="blDesc"> 
+
+        <div>
+          <h2>Blokus Simulator</h2>
+  
+          <p>
+            For the final project in freshman engineering, I made a simulation of the game Blokus and programmed different AI playing styles so that I could determine what
+             the best strategy is using thousands of game results as data
+              Codebase on Github - <a href = "https://github.com/SwellsHub/BlokusSim" target="_blank">https://github.com/SwellsHub/BlokusSim</a>
+          </p>
+
+        </div>
+  
+  
+      </section>
+
     
       <section class="light mediumsection dropdownsection" id="webdevHeader" data-id="webdev"> Web Dev <container class="webdev collapsibleIcon">-</container></section>
+
+      <!-- Eagle Eyes -->
+      <div class="slidePic slidePicL webdev" id="eePic" data-num="11">
+          
+        <div class="slide unitySlide slideL" id="eeSlide1" data-num="11"><img src="images/ee/TitleSlide.png" width=100% height=100%></div>
+        
+      </div>
+
+      <section class="light projectSection projectSectionR projectDescr webdev" id="Desc"> 
+
+        <div>
+          <h2>Eagle Eyes</h2>
+  
+          <p>
+            For the 2022 Notre Dame Hesburgh Hackathon we created an app to help beginner birdwatchers and promote engagement with nature<br><br>
+
+            Technology Used:
+            <ul>
+              <li>Flutter</li>
+              <li>EBird API for observation data</li>
+              <li>Google Maps API to show recent sightings of suggested bird</li>
+            </ul>
+            Codebase on github - <a href = "https://github.com/open-source-grilled-cheese/eagle-eyes" rel="noopener" target="_blank">https://github.com/open-source-grilled-cheese/eagle-eyes</a>
+          </p>
+  
+        </div>
+  
+  
+      </section>
 
       <!-- New Perspectives -->
 
@@ -335,63 +451,16 @@
   
         </section>
 
-        <!-- <section class="light mediumsection"><i class="fab fa-unity"></i> Misc</section>  -->
-      <section class="light mediumsection dropdownsection miscColor" id="miscHeader" data-id="miscdev"> Miscellaneous <container class="miscdev collapsibleIcon">-</container></section>
+      <!-- Art Section -->
+      <section class="light mediumsection dropdownsection artColor" id="artHeader" data-id="artdev"> Art <container class="artdev collapsibleIcon">-</container></section>
+      <container class=" projectSectionL projectDescr artdev artContainer" id="art1">
+      <img src="/images/art/Cylla.jpg" width=80% height=auto>
+      <img src="/images/art/steph.jpg" width=80% height=auto>
+      <img src="/images/art/Kel.jpg" width=80% height=auto>
+      </container>
 
-      <!-- Arduino Tetris -->
-
-      <div class="slidePic slidePicL miscdev" id="atPic" data-num="8">
-        
-        <div class="slide miscSlide slideL" id="atSlide1" data-num="8"><video autoplay loop muted playsinline width=100% height=100% style="margin-bottom: -5px;"><source src= "images/at/atVideo2.mp4"></video></div>
-        
-      </div>
-
-      <section class="light projectSection projectSectionR projectDescr miscdev unityColor" id="atDesc"> 
-
-      <div>
-        <h2>Arduino Tetris</h2>
-
-        <p>
-          Tetris on an Arduino! This was a group project for an embedded systems course, we display the game on an led matrix and even play the tetris theme
-          on the speaker!
-          <br><br>
-    
-          Technologies Used
-          <ul>
-            <li>Arduino</li>
-            <li>C</li>
-          </ul>
-          Codebase on Github - <a href = "https://github.com/centipeda/mini-tetris" target="_blank">https://github.com/centipeda/mini-tetris</a>
-        </p>
-
-      </div>
-
-
-      </section>
-
-      <!-- Blokus Simulation -->
-
-      <div class="slidePic slidePicL miscdev squareSlide" id="blPic" data-num="9">
-          
-        <div class="slide miscSlide slideL squareSlide" id="blSlide1" data-num="9"></div>
-        
-      </div>
-
-      <section class="light projectSection projectSectionR projectDescr miscdev unityColor" id="blDesc"> 
-
-        <div>
-          <h2>Blokus Simulator</h2>
-  
-          <p>
-            For the final project in freshman engineering, I made a simulation of the game Blokus and programmed different AI playing styles so that I could determine what
-             the best strategy is using thousands of game results as data
-              Codebase on Github - <a href = "https://github.com/SwellsHub/BlokusSim" target="_blank">https://github.com/SwellsHub/BlokusSim</a>
-          </p>
-
-        </div>
-  
-  
-      </section>
+      <br>
+      <br>
 
     </main>
 
