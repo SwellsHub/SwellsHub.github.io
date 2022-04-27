@@ -73,6 +73,10 @@ video {
   order: 9;
 }
 
+#art1_2D_Mobile,#art2_2D_Mobile,#art3_2D_Mobile {
+  background-color: transparent;
+}
+
 #GodotIcon {
   max-height: 50px;
   margin-bottom: -5px;
@@ -529,6 +533,14 @@ video {
       white-space: nowrap;
     }
 
+    .shortsection2 {
+      grid-column: 2 / span 10;
+      text-align: center;
+      padding: .75rem;
+      font-size: 4vw;
+      white-space: nowrap;
+    }
+
     .mediumsection {
       grid-column: 2 / span 9;
       text-align: center;
@@ -928,10 +940,26 @@ canvas {
     display: inline-block;
   }
 
+  .shortsection2 {
+    min-width: 205px;
+    grid-column: 2 / span 4;
+    text-align: center;
+    padding: .75rem;
+    display: inline-block;
+  }
+
   @media (min-width: 1800px) {
     .shortsection {
       min-width: 205px;
       grid-column: 2 / span 2;
+      text-align: center;
+      padding: .75rem;
+      display: inline-block;
+    }
+
+    .shortsection2 {
+      min-width: 205px;
+      grid-column: 2 / span 3;
       text-align: center;
       padding: .75rem;
       display: inline-block;
